@@ -1,0 +1,15 @@
+# Core Framework
+langgraph
+langchain-core
+sqlalchemy
+typing-extensions
+
+#LLM Clients
+openai
+anthropic
+google-genai
+
+#Utils
+python-dotenv
+pymysql
+pandas
