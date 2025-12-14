@@ -123,11 +123,11 @@ python main.py
 ```bash
 📦 DB_Agent_Multimodel
  ┣ 📂 agents/                # 시스템 프롬프트 관리 (.txt)
+ ┃ ┣ 📂 llm_clients/         # 벤더별 LLM 클라이언트 (Gemini, Claude, GPT)
  ┃ ┣ 📜 brain_agent.txt
  ┃ ┣ 📜 answer_agent.txt
  ┃ ┗ ...
  ┣ 📂 core/                  # 에이전트 및 LLM 로직 구현
- ┃ ┣ 📂 llm_clients/         # 벤더별 LLM 클라이언트 (Gemini, Claude, GPT)
  ┃ ┣ 📜 brain_agent.py
  ┃ ┣ 📜 answer_agent.py
  ┃ ┗ ...
